@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584389796938",
+    "firebase_url": "https://lainskusrep-2241c-default-rtdb.firebaseio.com",
+    "project_id": "lainskusrep-2241c",
+    "storage_bucket": "lainskusrep-2241c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584389796938:android:4f7e5464cc18c40fc0f2b3",
+        "android_client_info": {
+          "package_name": "com.arandom.kusreplain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584389796938-h4qr6j3f9fila903cl05mvm51ti1qfjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arandom.kusreplain",
+            "certificate_hash": "df7e501f42ba8a11ae1b5909f406cf42d10c6c27"
+          }
+        },
+        {
+          "client_id": "584389796938-lmarm19q24q258vfa1ruuj808emdgh95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQQ95iARjaTfjtUiaPLTWfrNPA0j7DwjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584389796938-lmarm19q24q258vfa1ruuj808emdgh95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

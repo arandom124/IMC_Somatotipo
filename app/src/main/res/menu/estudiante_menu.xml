@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Mi Cuenta">
+
+        <menu>
+    <item
+        android:id="@+id/menuPerfil"
+        android:icon="@drawable/profile"
+        android:title="Actualizar Perfil" />
+
+    <item
+        android:id="@+id/menuNotificacion"
+        android:icon="@drawable/notifications"
+        android:title="Notificacion" />
+
+    <item
+        android:id="@+id/menuColeccion"
+        android:icon="@drawable/collection"
+        android:title="Coleccion" />
+
+    <item
+        android:id="@+id/menuInbox"
+        android:icon="@drawable/inbox"
+        android:title="Mensaje" />
+
+</menu>
+
+    </item>
+    <item android:title="Otros">
+
+        <menu>
+
+            <item
+                android:id="@+id/menuSuporteAyuda"
+                android:icon="@drawable/support"
+                android:title="esa_de_ayuda" />
+            <item
+                android:id="@+id/menuaAboutNosotrso"
+                android:icon="@drawable/about"
+                android:title="Sobre_nosotros" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar Sesion"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/login_bg"
+    tools:context=".activitys.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/aradragon"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Investigacion e Inovacion (SOMATOTIPO)"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="40dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="firebase viejo"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="40dp"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:layout_margin="20dp">
+
+            <Button
+                android:id="@+id/btnSoyDocente"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounted_button"
+                android:backgroundTint="@color/colorBluLight"
+                android:text="Docente"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="5dp"/>
+
+            <Button
+                android:id="@+id/btnSoyEstudiante"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounted_button"
+                android:backgroundTint="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ESTUDIANTE"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

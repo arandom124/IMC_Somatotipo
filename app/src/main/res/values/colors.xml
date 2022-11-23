@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#076E11</color><!--color botton-->
+    <color name="purple_500">#6A3137</color><!--color no cambo veri-->
+    <color name="purple_700">#1B1A1A</color><!--color barra principal horas wifi -->
+    <color name="teal_200">#987070</color><!--color nada verfi-->
+    <color name="teal_700">#52569C</color><!--color nada na verifi-->
+    <color name="black">#040404</color><!--color de texto-->
+    <color name="white">#FFFFFF</color><!--color no verifi-->
+
+    <color name="colorPrimary">#333332</color><!--color fondo bacgruon-->
+    <color name="colorPrimaryDark">#000000</color><!--color barra toolbar-->
+    <color name="colorAccent">#3C5E4A</color><!--color nanana verifi-->
+    <color name="colorWhite">#FFFFFF</color><!--color texto 2-->
+    <color name="colorBluLight">#F40303</color><!--color barra toolbar-->
+    <color name="green">#1DAB53</color>
+    <color name="red">#CD4240</color>#5E5A5A
+    <color name="gris">#D2878585</color>
+    <color name="transparente">#66020202</color>
+    <color name="blacotxtlogin">#FFFFFF</color>
+
+</resources>
